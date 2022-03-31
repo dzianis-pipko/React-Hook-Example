@@ -246,7 +246,7 @@ const initialState4 = {
     age: DEFAULT_VALUE_4
 }
 
-export const FormExample4 = () => {
+const FormExample4 = () => {
 
     const [state, setState] = useMeargeValue(initialState4);
 
@@ -283,6 +283,17 @@ export const FormExample4 = () => {
             <div>
                 {JSON.stringify(state)}
             </div>
+        </>
+    )
+}
+
+export const FormExample = () => {
+    return (
+        <>
+            <FormExample1 />
+            <FormExample2 />
+            <FormExample3 />
+            <FormExample4 />
         </>
     )
 }

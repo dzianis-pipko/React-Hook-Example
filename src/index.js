@@ -4,6 +4,7 @@ import {HelloWorld} from './HelloWorld';
 import {UseStateHook} from './UseStateHook';
 import {FormExample} from './FormExample';
 import {CustomHookExample} from './CustomHookExample';
+import {LazyInitializationUseState} from './LazyInitializationUseState';
 
 const RED = 'red';
 
@@ -13,6 +14,7 @@ ReactDOM.render(
     <UseStateHook/>
     <FormExample />
     <CustomHookExample />
+    <LazyInitializationUseState />
   </>,
   document.getElementById('root')
 );
