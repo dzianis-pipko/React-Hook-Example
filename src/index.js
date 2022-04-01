@@ -5,6 +5,7 @@ import {UseStateHook} from './UseStateHook';
 import {FormExample} from './FormExample';
 import {CustomHookExample} from './CustomHookExample';
 import {LazyInitializationUseState} from './LazyInitializationUseState';
+import {CountUseEffect} from './CountUseEffect';
 
 const RED = 'red';
 
@@ -15,6 +16,7 @@ ReactDOM.render(
     <FormExample />
     <CustomHookExample />
     <LazyInitializationUseState />
+    <CountUseEffect />
   </>,
   document.getElementById('root')
 );
