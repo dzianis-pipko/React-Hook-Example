@@ -6,11 +6,13 @@ import {FormExample} from './FormExample';
 import {CustomHookExample} from './CustomHookExample';
 import {LazyInitializationUseState} from './LazyInitializationUseState';
 import {CountUseEffect} from './CountUseEffect';
+import {GameWithUseEffect} from './GameWithUseEffect';
 
 const RED = 'red';
 
 ReactDOM.render(
   <>
+    <GameWithUseEffect />
     <HelloWorld color={RED} />
     <UseStateHook/>
     <FormExample />
