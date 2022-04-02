@@ -7,6 +7,7 @@ import {CustomHookExample} from './CustomHookExample';
 import {LazyInitializationUseState} from './LazyInitializationUseState';
 import {CountUseEffect} from './CountUseEffect';
 import {GameWithUseEffect} from './GameWithUseEffect';
+import {UseRef} from './UseRef';
 
 const RED = 'red';
 
@@ -19,6 +20,7 @@ ReactDOM.render(
     <CustomHookExample />
     <LazyInitializationUseState />
     <CountUseEffect />
+    <UseRef />
   </>,
   document.getElementById('root')
 );
