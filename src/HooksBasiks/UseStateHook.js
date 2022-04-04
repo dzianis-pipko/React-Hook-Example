@@ -33,7 +33,6 @@ export const UseStateHook = () => {
         setLastName(onChangeLastNameConst)
     }
 
-   
     return (
         <div>
             <button onClick={onClick}>onClick {visibleContent} </button>

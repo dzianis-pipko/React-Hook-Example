@@ -5,10 +5,12 @@ const Lable = ({children}) => {
     )
 }
 
-export const HelloWorld = ({color}) => {
+const RED = 'red';
+
+export const HelloWorld = () => {
 
     const styles = {
-        color: color === 'red' ? 'green': 'red',
+        color: RED === 'red' ? 'green': 'red',
     }
 
     return(
