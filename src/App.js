@@ -11,6 +11,8 @@ import {
     CountUseEffect,
     GameWithUseEffect, 
     UseRef,
+    ChapterPinInput,
+    Hoc,
 } from './HooksBasiks';
 
 const content = {
@@ -22,6 +24,8 @@ const content = {
     ch_6: {name: 'Charter 6', component: CountUseEffect},
     ch_7: {name: 'Charter 7', component: GameWithUseEffect},
     ch_8: {name: 'Charter 8', component: UseRef},
+    ch_9: {name: 'Charter 9', component: ChapterPinInput},
+    ch_10: {name: 'Charter 10', component: Hoc},
 }
 
 export const App = () => {

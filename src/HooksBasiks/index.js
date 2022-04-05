@@ -6,6 +6,8 @@ import {LazyInitializationUseState} from './LazyInitializationUseState';
 import {CountUseEffect} from './CountUseEffect';
 import {GameWithUseEffect} from './GameWithUseEffect';
 import {UseRef} from './UseRef';
+import {ChapterPinInput} from './ChapterPinInput/ChapterPinInput';
+import {Hoc} from './Hoc';
 
 export {
     HelloWorld,
@@ -16,4 +18,6 @@ export {
     CountUseEffect,
     GameWithUseEffect,
     UseRef,
+    ChapterPinInput,
+    Hoc,
 }
