@@ -14,6 +14,7 @@ import {
     ChapterPinInput,
     Hoc,
     UseCallback,
+    UseMemo,
 } from './HooksBasiks';
 
 const content = {
@@ -28,6 +29,7 @@ const content = {
     ch_9: {name: 'Charter 9', component: ChapterPinInput},
     ch_10: {name: 'Charter 10', component: Hoc},
     ch_11: {name: 'Charter 11', component: UseCallback},
+    ch_12: {name: 'Charter 12', component: UseMemo},
 }
 
 export const App = () => {

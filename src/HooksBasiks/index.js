@@ -9,6 +9,7 @@ import {UseRef} from './UseRef';
 import {ChapterPinInput} from './ChapterPinInput/ChapterPinInput';
 import {Hoc} from './Hoc';
 import {UseCallback} from './UseCallback';
+import UseMemo from './UseMemo';
 
 export {
     HelloWorld,
@@ -22,4 +23,5 @@ export {
     ChapterPinInput,
     Hoc,
     UseCallback,
+    UseMemo,
 }
