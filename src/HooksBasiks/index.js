@@ -8,6 +8,7 @@ import {GameWithUseEffect} from './GameWithUseEffect';
 import {UseRef} from './UseRef';
 import {ChapterPinInput} from './ChapterPinInput/ChapterPinInput';
 import {Hoc} from './Hoc';
+import {UseCallback} from './UseCallback';
 
 export {
     HelloWorld,
@@ -20,4 +21,5 @@ export {
     UseRef,
     ChapterPinInput,
     Hoc,
+    UseCallback,
 }
