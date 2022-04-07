@@ -16,22 +16,23 @@ import {
     UseCallback,
     UseMemo,
 } from './HooksBasiks';
-import {UseToggle} from './CustomHooks';
+import {UseToggle, EventListener} from './CustomHooks';
 
 const content = {
-    ch_1: {name: 'Charter 1', component: HelloWorld},
-    ch_2: {name: 'Charter 2', component: UseStateHook},
-    ch_3: {name: 'Charter 3', component: FormExample},
-    ch_4: {name: 'Charter 4', component: CustomHookExample},
-    ch_5: {name: 'Charter 5', component: LazyInitializationUseState},
-    ch_6: {name: 'Charter 6', component: CountUseEffect},
-    ch_7: {name: 'Charter 7', component: GameWithUseEffect},
-    ch_8: {name: 'Charter 8', component: UseRef},
-    ch_9: {name: 'Charter 9', component: ChapterPinInput},
-    ch_10: {name: 'Charter 10', component: Hoc},
-    ch_11: {name: 'Charter 11', component: UseCallback},
-    ch_12: {name: 'Charter 12', component: UseMemo},
-    ch_13: {name: 'Charter 13', component: UseToggle},
+    ch_1: {name: 'HelloWorld', component: HelloWorld},
+    ch_2: {name: 'UseStateHook', component: UseStateHook},
+    ch_3: {name: 'FormExample', component: FormExample},
+    ch_4: {name: 'CustomHookExample', component: CustomHookExample},
+    ch_5: {name: 'LazyInitializationUseState', component: LazyInitializationUseState},
+    ch_6: {name: 'CountUseEffect', component: CountUseEffect},
+    ch_7: {name: 'GameWithUseEffect', component: GameWithUseEffect},
+    ch_8: {name: 'UseRef', component: UseRef},
+    ch_9: {name: 'ChapterPinInput', component: ChapterPinInput},
+    ch_10: {name: 'Hoc', component: Hoc},
+    ch_11: {name: 'UseCallback', component: UseCallback},
+    ch_12: {name: 'UseMemo', component: UseMemo},
+    ch_13: {name: 'UseToggle', component: UseToggle},
+    ch_14: {name: 'UseEventListener', component: EventListener},
 }
 
 export const App = () => {
