@@ -16,6 +16,7 @@ import {
     UseCallback,
     UseMemo,
 } from './HooksBasiks';
+import {UseToggle} from './CustomHooks';
 
 const content = {
     ch_1: {name: 'Charter 1', component: HelloWorld},
@@ -30,6 +31,7 @@ const content = {
     ch_10: {name: 'Charter 10', component: Hoc},
     ch_11: {name: 'Charter 11', component: UseCallback},
     ch_12: {name: 'Charter 12', component: UseMemo},
+    ch_13: {name: 'Charter 13', component: UseToggle},
 }
 
 export const App = () => {
